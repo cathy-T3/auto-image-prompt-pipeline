@@ -1,0 +1,18 @@
+# local secrets / config - never commit
+.tailab_config.json
+*.token
+*.secret
+
+# python
+__pycache__/
+*.py[cod]
+
+# generated outputs / caches
+*_output/
+dongchedi_cache/
+local_pkg_v19c/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
